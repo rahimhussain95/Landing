@@ -1,0 +1,130 @@
+body {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.header {
+    margin-bottom: 32px;
+}
+
+.navbar {
+    margin-bottom: 32px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 0px 240px;
+}
+
+.hlogo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9Faf8;
+}
+
+.sushi {
+    font-size: 48px;
+    color: #F9Faf8;
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.inttext {
+    width: 30%;
+}
+.main, .sign {
+    background-color: white;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+    padding: 24px;
+}
+
+
+.quote, .gallery {
+    color: #1f2937;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box, button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.box button {
+    border: 2px solid white;
+}
+
+button {
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+
+.header button {
+    border: 2px solid #3882F6
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.sign{
+    padding: 60px 250px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.sushi, .hlogo, .gheader, .person, .call {
+    font-weight: 900;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
